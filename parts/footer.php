@@ -1,6 +1,6 @@
 	</section>
 	<footer>
-		&copy; <?php echo date("Y"); ?> <?php bloginfo( 'name' ); ?>. All rights reserved.
+		<?php get_template_part('parts/footer', 'content'); ?>
 	</footer>
 	<?php wp_footer(); ?>
 	</body>
