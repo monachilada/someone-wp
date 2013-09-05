@@ -1,4 +1,4 @@
-someone-wp
+Someone WP
 ==========
 
-Base wordpress theme loosely based on Starkers for beginning projects
+Base wordpress theme for beginning projects.
