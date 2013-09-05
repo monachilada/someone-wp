@@ -1,14 +1,3 @@
-<?php
-/**
- * Search results page
- * 
- * Please see /external/starkers-utilities.php for info on Starkers_Utilities::get_template_parts()
- *
- * @package 	WordPress
- * @subpackage 	Starkers
- * @since 		Starkers 4.0
- */
-?>
 <?php get_template_part('parts/header'); ?>
 
 <?php if ( have_posts() ): ?>
