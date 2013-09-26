@@ -1,4 +1,4 @@
-<?php get_template_part('parts/header'); ?>
+<?php get_header(); ?>
 
 <?php if ( have_posts() ): the_post(); ?>
 
@@ -11,4 +11,4 @@
 
 <?php endif; ?>
 
-<?php get_template_part('parts/footer'); ?>
+<?php get_footer(); ?>
