@@ -4,6 +4,8 @@
 		<? if(is_single()): ?>
 			<time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate><?php the_date(); ?> <?php the_time(); ?></time>
 		<? endif; ?>
-		<?php the_content(); ?>
+		<div class="content">
+			<?php the_content(); ?>
+		</div>
 	</article>
 <?php endwhile; ?>
