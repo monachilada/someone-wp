@@ -1,5 +1,6 @@
 <?
 	add_filter('show_admin_bar', '__return_false');
+	add_theme_support('post-thumbnails');
 	
 	/* UTILITY FUNCTIONS */
 	function get_template_name($id) {
