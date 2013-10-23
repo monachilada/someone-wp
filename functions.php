@@ -22,6 +22,10 @@
 		return $img[0];
 	}
 	
+	function get_video_embed($url) {
+		return '<div class="video">'.strip_tags(apply_filters('the_content', $url), '<iframe><video><embed><object>').'</div>';
+	}
+	
 	/* DEVELOPMENT FUNCTIONS */
 	function debug() {
 		echo '<pre>';
